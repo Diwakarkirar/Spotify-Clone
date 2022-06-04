@@ -1,0 +1,148 @@
+*{margin:0;}
+.top-container{
+    height:5vh;
+    width:100vw;
+    background-color:black;  
+    color:white;
+    display: flex;
+   align-items: center;
+   
+}
+.top-container img{
+    padding-top:0.5vh;
+}
+.top-container h5{
+    padding:0 3vw;
+    font-family: 'Dancing Script', cursive;
+    cursor:pointer;
+}
+
+.middle-container{
+    width:100vw;
+    height:80vh;
+    background-image:url(musicbg.jpg); 
+    background-size: cover;
+    position: absolute;
+}
+
+.bottom-container{
+    background-color:black;
+    width:100vw;
+    height:15vh;
+    position: absolute;
+    margin-top:80vh;
+}
+.songs{
+    height:60vh;
+    width:30vw;
+    background-color:transparent;
+    margin-left:70vw;
+    margin-top:15vh;
+   align-items: center;
+}
+.song{
+    width:25vw;
+    height:5vh;
+    border:none;
+    background-color:transparent;
+     box-shadow: 5px 5px 8px #888888;
+    margin:0.5vh 2vw;
+    align-items: center;
+    
+    font-size:0.7rem;
+    display: flex;
+   font-family: 'Lobster', cursive;
+}
+.cover{
+    width:2vw;
+    height:3vh;
+    border-radius:200%;
+}
+.playbtn{
+    position: absolute;
+    margin-left:22vw;
+    cursor:pointer;
+}
+.middle-container h4{
+   font-family: 'Dancing Script', cursive;
+    margin-left:73vw;
+    margin-top:5vh;
+    position: absolute;
+    font-size:2rem;
+}
+.progressbar{
+    width:75vw;
+    margin-left:13vw;
+    margin-top:7vh;
+    
+}
+.progressbtn{
+    color:white;
+    padding:0 1vw;
+    cursor:pointer;
+}
+.progressbtns{
+    margin-left:45vw;
+    margin-top:2vh;
+}
+
+
+.song p{
+    margin-left:1vw;
+    font-size:0.9rem;
+}
+.songname h4{
+    color:white;
+    position: absolute;
+    width:40vw;
+    font-size:1.2rem;
+    text-align: center;
+    margin-left:31vw;
+    word-spacing:0.5vw; 
+    margin-top:3vh;
+    font-weight:200;
+    font-family:'Lobster';
+    
+}
+.currentTime{
+    position: absolute;
+    color:whitesmoke;
+    margin-top:7vh;
+    margin-left:7vw;
+}
+.songDuration{
+     position: absolute;
+    color:whitesmoke;
+    margin-top:7vh;
+    margin-left:92vw;
+}
+@media (max-width:1000px){
+    .song{
+        width:70vw;
+        background-color:lightgray;
+    }
+    .songs{
+        margin-left:10vw;
+    }
+    .playbtn{
+        margin-left:60vw;
+    }
+    .song p{
+        font-size:2rem;
+    }
+    .cover{
+        width:4vw;
+        height: 3vh;
+    }
+    .middle-container h4{
+        margin-left: 20vw;
+        font-size:5rem;
+        margin-top:9vh;
+    }
+    .top-container img{
+        width:5vw;
+        height:3vh;
+    }
+    .top-container h5{font-size:1rem;
+}
+}
